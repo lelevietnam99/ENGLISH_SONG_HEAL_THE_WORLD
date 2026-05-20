@@ -46,13 +46,13 @@
             font-weight: bold;
             color: #2980b9;
             margin-bottom: 8px;
-            white-space: pre-line;
+            white-space: pre-line; /* Giữ nguyên khoảng xuống dòng */
         }
         .vietnamese {
             font-style: italic;
             color: #666;
             margin-bottom: 12px;
-            white-space: pre-line;
+            white-space: pre-line; /* Giữ nguyên khoảng xuống dòng */
             border-bottom: 1px dashed #ddd;
             padding-bottom: 10px;
         }
@@ -71,9 +71,12 @@
             padding-bottom: 5px;
             margin-top: 30px;
         }
-        .repeated {
-            border-left-color: #95a5a6;
-            opacity: 0.9;
+        .repeated-note {
+            font-size: 0.9em;
+            color: #95a5a6;
+            margin-top: -10px;
+            margin-bottom: 10px;
+            font-style: italic;
         }
     </style>
 </head>
@@ -105,7 +108,7 @@ Và nơi này có thể rực rỡ
 Hơn cả ngày mai</div>
             <div class="grammar">
                 <strong>Cấu trúc:</strong> <code>There is + Noun</code> (Có cái gì).<br>
-                <strong>So sánh hơn:</strong> <code>much brighter than</code> (Sáng hơn rất nhiều so với). Dùng "much" trước tính từ so sánh hơn để nhấn mạnh mức độ.
+                <strong>So sánh hơn:</strong> <code>much brighter than</code> (Sáng hơn rất nhiều so với). Dùng "much" trước tính từ để nhấn mạnh.
             </div>
         </div>
 
@@ -119,7 +122,7 @@ Bạn sẽ thấy không cần phải khóc
 Ở nơi này bạn sẽ cảm nhận được
 Không có nỗi đau hay sự muộn phiền nào</div>
             <div class="grammar">
-                <strong>Câu điều kiện loại 1:</strong> <code>If + S + V(hiện tại), S + will + V</code> (Điều kiện có thể xảy ra ở hiện tại/tương lai).<br>
+                <strong>Câu điều kiện loại 1:</strong> <code>If + S + V(hiện tại), S + will + V</code> (Điều kiện có thể xảy ra).<br>
                 <strong>Cấu trúc:</strong> <code>There is no need to + V</code> (Không cần thiết phải làm gì).
             </div>
         </div>
@@ -138,38 +141,33 @@ Hãy dành ra một chút không gian
 Hãy tạo nên một nơi tốt đẹp hơn</div>
             <div class="grammar">
                 <strong>Cấu trúc:</strong> <code>V + enough (for sb) + to V</code> (Đủ... để làm gì).<br>
-                <strong>Ngữ pháp:</strong> <code>The + Adjective</code> (The living) dùng để chỉ một nhóm người (những người đang sống).
+                <strong>Ngữ pháp:</strong> <code>The + Adjective</code> (The living) dùng để chỉ những người đang sống.
             </div>
         </div>
 
-        <!-- CHORUS -->
+        <!-- CHORUS 1 -->
         <h2 class="section-title">Chorus</h2>
 
         <div class="lyric-card">
             <div class="english">Heal the world
 Make it a better place
 For you and for me
-And the entire human race</div>
-            <div class="vietnamese">Hãy chữa lành thế giới
-Biến nó thành một nơi tốt đẹp hơn
-Cho bạn và cho tôi
-Và cho toàn bộ nhân loại</div>
-            <div class="grammar">
-                <strong>Cấu trúc:</strong> <code>Make + O + Noun/Adj</code> (Làm cho/Biến cái gì thành cái gì). Ví dụ: Make it (O) a better place (Noun).<br>
-                <strong>Từ vựng:</strong> <code>entire human race</code> (toàn bộ nhân loại).
-            </div>
-        </div>
-
-        <div class="lyric-card">
-            <div class="english">There are people dying
+And the entire human race
+There are people dying
 If you care enough for the living
 Make it a better place
 For you and for me</div>
-            <div class="vietnamese">Đang có những người phải ngã xuống
+            <div class="vietnamese">Hãy chữa lành thế giới
+Biến nó thành một nơi tốt đẹp hơn
+Cho bạn và cho tôi
+Và cho toàn bộ nhân loại
+Đang có những người phải ngã xuống
 Nếu bạn đủ quan tâm đến sự sống
 Hãy biến thế giới thành một nơi tốt đẹp hơn
 Cho bạn và cho tôi</div>
             <div class="grammar">
+                <strong>Cấu trúc:</strong> <code>Make + O + Noun/Adj</code> (Biến cái gì thành cái gì). Ví dụ: Make it a better place.<br>
+                <strong>Từ vựng:</strong> <code>entire human race</code> (toàn bộ nhân loại).<br>
                 <strong>Mệnh đề rút gọn:</strong> <code>There are people dying</code> (Dạng đầy đủ: There are people who are dying).
             </div>
         </div>
@@ -202,7 +200,7 @@ Trong niềm hạnh phúc này ta không thể cảm nhận
 Sự sợ hãi của những nỗi kinh hoàng
 Chúng ta ngừng việc tồn tại và bắt đầu thực sự sống</div>
             <div class="grammar">
-                <strong>Cấu trúc đối lập:</strong> <code>Stop + V-ing</code> (Dừng hẳn việc gì đó lại) so với <code>Start + V-ing</code> (Bắt đầu làm việc gì đó). Chuyển từ "existing" (chỉ tồn tại qua ngày) sang "living" (thực sự sống ý nghĩa).
+                <strong>Cấu trúc đối lập:</strong> <code>Stop + V-ing</code> (Dừng hẳn việc gì đó lại) so với <code>Start + V-ing</code> (Bắt đầu làm việc gì đó). Chuyển từ "existing" (chỉ tồn tại) sang "living" (thực sự sống).
             </div>
         </div>
 
@@ -223,13 +221,24 @@ Tạo ra một chốn bình yên hơn</div>
             </div>
         </div>
 
-        <!-- REPEAT CHORUS -->
+        <!-- CHORUS 2 -->
         <h2 class="section-title">Chorus</h2>
-        <div class="lyric-card repeated">
-            <div class="english">Heal the world...
+
+        <div class="lyric-card">
+            <div class="english">Heal the world
+Make it a better place
+For you and for me
+And the entire human race
+There are people dying
+If you care enough for the living
 Make a better place for you and for me</div>
-            <div class="vietnamese">(Lặp lại điệp khúc)
-Hãy chữa lành thế giới...</div>
+            <div class="vietnamese">Hãy chữa lành thế giới
+Biến nó thành một nơi tốt đẹp hơn
+Cho bạn và cho tôi
+Và cho toàn bộ nhân loại
+Đang có những người phải ngã xuống
+Nếu bạn đủ quan tâm đến sự sống
+Hãy biến thế giới thành một nơi tốt đẹp hơn cho bạn và cho tôi</div>
         </div>
 
         <!-- BRIDGE -->
@@ -245,7 +254,7 @@ Sẽ hé lộ một gương mặt ngập tràn niềm vui
 Và thế giới mà chúng ta từng tin tưởng
 Sẽ lại tỏa sáng trong ân sủng</div>
             <div class="grammar">
-                <strong>Mệnh đề quan hệ (ẩn đại từ):</strong> <code>the dream (which/that) we were conceived in</code>. Khi động từ đi kèm giới từ (in), giới từ có thể đặt ở cuối mệnh đề.
+                <strong>Mệnh đề quan hệ (ẩn đại từ):</strong> <code>the dream (which/that) we were conceived in</code>. Giới từ "in" có thể đặt ở cuối mệnh đề.
             </div>
         </div>
 
@@ -287,10 +296,10 @@ Together we cry happy tears
 See the nations turn their swords into plowshares</div>
             <div class="vietnamese">Kiến tạo một thế giới không có sự sợ hãi
 Cùng nhau ta rơi những giọt nước mắt hạnh phúc
-Nhìn các quốc gia biến gươm đao thành lưỡi cày (ngừng chiến tranh)</div>
+Nhìn các quốc gia biến gươm đao thành lưỡi cày</div>
             <div class="grammar">
                 <strong>Động từ tri giác:</strong> <code>See + O + V(nguyên thể)</code> (Chứng kiến ai đó làm gì từ đầu đến cuối).<br>
-                <strong>Cụm từ/Thành ngữ:</strong> <code>Turn A into B</code> (Biến A thành B). "Turn swords into plowshares" là một thành ngữ mang ý nghĩa từ bỏ chiến tranh để xây dựng hòa bình.
+                <strong>Thành ngữ:</strong> <code>Turn swords into plowshares</code> (Biến gươm đao thành lưỡi cày - từ bỏ chiến tranh để xây dựng hòa bình).
             </div>
         </div>
 
@@ -307,14 +316,15 @@ Nếu bạn đủ quan tâm tới sự sống
 Hãy dành ra một chút không gian
 Để tạo nên một nơi tốt đẹp hơn</div>
             <div class="grammar">
-                <strong>Câu điều kiện loại 2:</strong> <code>If + S + V(quá khứ đơn), S + could/would + V(nguyên thể)</code>. Dùng để giả định một điều không có thật hoặc khó xảy ra ở hiện tại ("If you cared" và "We could get there").
+                <strong>Câu điều kiện loại 2:</strong> <code>If + S + V(quá khứ đơn), S + could/would + V(nguyên thể)</code>. Giả định một điều không có thật hoặc khó xảy ra ở hiện tại ("If you cared" và "We could get there").
             </div>
         </div>
 
-        <!-- OUTRO CHORUS -->
+        <!-- OUTRO CHORUS (LẶP LẠI LIÊN TỤC) -->
         <h2 class="section-title">Outro (Điệp khúc lặp lại)</h2>
+        <div class="repeated-note">Đoạn điệp khúc dưới đây được hát lặp lại nhiều lần cho đến khi kết thúc bài.</div>
 
-        <div class="lyric-card repeated">
+        <div class="lyric-card">
             <div class="english">Heal the world
 Make it a better place
 For you and for me
@@ -328,18 +338,48 @@ Cho bạn và cho tôi
 Và cho toàn bộ nhân loại
 Đang có những người phải ngã xuống
 Nếu bạn đủ quan tâm đến sự sống
-Hãy biến thế giới thành một nơi tốt đẹp hơn cho bạn và cho tôi.
-(Đoạn này được lặp lại 3 lần và kết thúc bài hát)</div>
+Hãy biến thế giới thành một nơi tốt đẹp hơn cho bạn và cho tôi</div>
         </div>
 
-        <div class="lyric-card repeated">
-            <div class="english">There are people dying
+        <div class="lyric-card">
+            <div class="english">Heal the world
+Make it a better place
+For you and for me
+And the entire human race
+There are people dying
 If you care enough for the living
-Make a better place for you and for me
-(You and for me / You and for me...)</div>
-            <div class="vietnamese">Đang có những người phải ngã xuống
+Make a better place for you and for me</div>
+            <div class="vietnamese">Hãy chữa lành thế giới
+Biến nó thành một nơi tốt đẹp hơn
+Cho bạn và cho tôi
+Và cho toàn bộ nhân loại
+Đang có những người phải ngã xuống
 Nếu bạn đủ quan tâm đến sự sống
-Hãy biến thế giới thành một nơi tốt đẹp hơn cho bạn và cho tôi.</div>
+Hãy biến thế giới thành một nơi tốt đẹp hơn cho bạn và cho tôi</div>
+        </div>
+
+        <div class="lyric-card">
+            <div class="english">Heal the world
+Make it a better place
+For you and for me
+And the entire human race
+There are people dying
+If you care enough for the living
+Make a better place for you and for me</div>
+            <div class="vietnamese">Hãy chữa lành thế giới
+Biến nó thành một nơi tốt đẹp hơn
+Cho bạn và cho tôi
+Và cho toàn bộ nhân loại
+Đang có những người phải ngã xuống
+Nếu bạn đủ quan tâm đến sự sống
+Hãy biến thế giới thành một nơi tốt đẹp hơn cho bạn và cho tôi</div>
+        </div>
+
+        <div class="lyric-card">
+            <div class="english">There are people dying
+If you care enough for the living</div>
+            <div class="vietnamese">Đang có những người phải ngã xuống
+Nếu bạn đủ quan tâm đến sự sống</div>
         </div>
         
     </div>
