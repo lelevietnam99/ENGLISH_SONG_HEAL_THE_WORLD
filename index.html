@@ -42,15 +42,19 @@
             border-left: 5px solid #3498db;
         }
         .english {
-            font-size: 1.2em;
+            font-size: 1.1em;
             font-weight: bold;
             color: #2980b9;
-            margin-bottom: 5px;
+            margin-bottom: 8px;
+            white-space: pre-line;
         }
         .vietnamese {
             font-style: italic;
-            color: #7f8c8d;
-            margin-bottom: 10px;
+            color: #666;
+            margin-bottom: 12px;
+            white-space: pre-line;
+            border-bottom: 1px dashed #ddd;
+            padding-bottom: 10px;
         }
         .grammar {
             background-color: #ecf0f1;
@@ -67,6 +71,10 @@
             padding-bottom: 5px;
             margin-top: 30px;
         }
+        .repeated {
+            border-left-color: #95a5a6;
+            opacity: 0.9;
+        }
     </style>
 </head>
 <body>
@@ -75,7 +83,6 @@
     
     <div class="audio-container">
         <p><i>Bật nhạc lên và cùng học nhé!</i></p>
-        <!-- Thẻ audio liên kết tới file mp3 của bạn -->
         <audio controls>
             <source src="Heal The World.mp3" type="audio/mpeg">
             Trình duyệt của bạn không hỗ trợ thẻ phát âm thanh.
@@ -83,92 +90,256 @@
     </div>
 
     <div class="lyric-section">
-        <h2 class="section-title">Verse 1 (Đoạn 1)</h2>
+        
+        <!-- VERSE 1 -->
+        <h2 class="section-title">Verse 1</h2>
         
         <div class="lyric-card">
-            <div class="english">There's a place in your heart</div>
-            <div class="vietnamese">Có một nơi trong trái tim bạn</div>
+            <div class="english">There's a place in your heart
+And I know that it is love
+And this place could be much
+Brighter than tomorrow</div>
+            <div class="vietnamese">Có một nơi trong trái tim bạn
+Và tôi biết đó chính là tình yêu
+Và nơi này có thể rực rỡ
+Hơn cả ngày mai</div>
             <div class="grammar">
-                <strong>Cấu trúc:</strong> <code>There is + Noun số ít</code> (Có một cái gì đó). Ở đây "There's" là viết tắt của "There is". "A place" là danh từ số ít chỉ địa điểm.
+                <strong>Cấu trúc:</strong> <code>There is + Noun</code> (Có cái gì).<br>
+                <strong>So sánh hơn:</strong> <code>much brighter than</code> (Sáng hơn rất nhiều so với). Dùng "much" trước tính từ so sánh hơn để nhấn mạnh mức độ.
             </div>
         </div>
 
         <div class="lyric-card">
-            <div class="english">And I know that it is love</div>
-            <div class="vietnamese">Và tôi biết rằng nơi đó chính là tình yêu</div>
+            <div class="english">And if you really try
+You'll find there's no need to cry
+In this place you'll feel
+There's no hurt or sorrow</div>
+            <div class="vietnamese">Và nếu bạn thực sự cố gắng
+Bạn sẽ thấy không cần phải khóc
+Ở nơi này bạn sẽ cảm nhận được
+Không có nỗi đau hay sự muộn phiền nào</div>
             <div class="grammar">
-                <strong>Cấu trúc:</strong> <code>S + V + that + Mệnh đề (S + V)</code>. "That" ở đây đóng vai trò nối mệnh đề danh ngữ, làm rõ điều mà chủ ngữ "I" biết.
+                <strong>Câu điều kiện loại 1:</strong> <code>If + S + V(hiện tại), S + will + V</code> (Điều kiện có thể xảy ra ở hiện tại/tương lai).<br>
+                <strong>Cấu trúc:</strong> <code>There is no need to + V</code> (Không cần thiết phải làm gì).
+            </div>
+        </div>
+
+        <!-- PRE-CHORUS 1 -->
+        <h2 class="section-title">Pre-Chorus</h2>
+
+        <div class="lyric-card">
+            <div class="english">There are ways to get there
+If you care enough for the living
+Make a little space
+Make a better place</div>
+            <div class="vietnamese">Có nhiều cách để đến được đó
+Nếu bạn đủ quan tâm tới những sinh linh đang sống
+Hãy dành ra một chút không gian
+Hãy tạo nên một nơi tốt đẹp hơn</div>
+            <div class="grammar">
+                <strong>Cấu trúc:</strong> <code>V + enough (for sb) + to V</code> (Đủ... để làm gì).<br>
+                <strong>Ngữ pháp:</strong> <code>The + Adjective</code> (The living) dùng để chỉ một nhóm người (những người đang sống).
+            </div>
+        </div>
+
+        <!-- CHORUS -->
+        <h2 class="section-title">Chorus</h2>
+
+        <div class="lyric-card">
+            <div class="english">Heal the world
+Make it a better place
+For you and for me
+And the entire human race</div>
+            <div class="vietnamese">Hãy chữa lành thế giới
+Biến nó thành một nơi tốt đẹp hơn
+Cho bạn và cho tôi
+Và cho toàn bộ nhân loại</div>
+            <div class="grammar">
+                <strong>Cấu trúc:</strong> <code>Make + O + Noun/Adj</code> (Làm cho/Biến cái gì thành cái gì). Ví dụ: Make it (O) a better place (Noun).<br>
+                <strong>Từ vựng:</strong> <code>entire human race</code> (toàn bộ nhân loại).
             </div>
         </div>
 
         <div class="lyric-card">
-            <div class="english">And this place could be much brighter than tomorrow</div>
-            <div class="vietnamese">Và nơi này có thể rực rỡ hơn cả ngày mai</div>
+            <div class="english">There are people dying
+If you care enough for the living
+Make it a better place
+For you and for me</div>
+            <div class="vietnamese">Đang có những người phải ngã xuống
+Nếu bạn đủ quan tâm đến sự sống
+Hãy biến thế giới thành một nơi tốt đẹp hơn
+Cho bạn và cho tôi</div>
             <div class="grammar">
-                <strong>Cấu trúc:</strong> <code>So sánh hơn (Comparative)</code>. "Brighter than" (sáng hơn/rực rỡ hơn so với). Từ "much" đứng trước tính từ so sánh hơn để nhấn mạnh (sáng hơn rất nhiều). "Could be" là động từ khuyết thiếu chỉ khả năng có thể xảy ra.
+                <strong>Mệnh đề rút gọn:</strong> <code>There are people dying</code> (Dạng đầy đủ: There are people who are dying).
+            </div>
+        </div>
+
+        <!-- VERSE 2 -->
+        <h2 class="section-title">Verse 2</h2>
+
+        <div class="lyric-card">
+            <div class="english">If you want to know why
+There's love that cannot lie
+Love is strong
+It only cares of joyful giving</div>
+            <div class="vietnamese">Nếu bạn muốn biết tại sao
+Có một tình yêu không bao giờ lừa dối
+Tình yêu rất mạnh mẽ
+Nó chỉ quan tâm đến niềm vui của sự cho đi</div>
+            <div class="grammar">
+                <strong>Mệnh đề quan hệ:</strong> <code>that cannot lie</code> bổ nghĩa cho danh từ "love" phía trước.<br>
+                <strong>Cụm từ:</strong> <code>care of/about + Noun/V-ing</code> (quan tâm đến việc gì).
             </div>
         </div>
 
         <div class="lyric-card">
-            <div class="english">And if you really try, you'll find there's no need to cry</div>
-            <div class="vietnamese">Và nếu bạn thực sự cố gắng, bạn sẽ thấy không cần phải khóc</div>
+            <div class="english">If we try we shall see
+In this bliss we cannot feel
+Fear of dread
+We stop existing and start living</div>
+            <div class="vietnamese">Nếu chúng ta cố gắng chúng ta sẽ thấy
+Trong niềm hạnh phúc này ta không thể cảm nhận
+Sự sợ hãi của những nỗi kinh hoàng
+Chúng ta ngừng việc tồn tại và bắt đầu thực sự sống</div>
             <div class="grammar">
-                <strong>Cấu trúc:</strong> <code>Câu điều kiện loại 1 (If + S + V(hiện tại), S + will + V)</code>. Dùng để diễn tả một sự việc có thể xảy ra ở hiện tại hoặc tương lai.<br>
-                <strong>Cụm từ:</strong> <code>There's no need to + V_nguyên thể</code> (Không cần thiết phải làm gì).
+                <strong>Cấu trúc đối lập:</strong> <code>Stop + V-ing</code> (Dừng hẳn việc gì đó lại) so với <code>Start + V-ing</code> (Bắt đầu làm việc gì đó). Chuyển từ "existing" (chỉ tồn tại qua ngày) sang "living" (thực sự sống ý nghĩa).
             </div>
         </div>
 
-        <h2 class="section-title">Pre-Chorus (Tiền điệp khúc)</h2>
+        <!-- PRE-CHORUS 2 -->
+        <h2 class="section-title">Pre-Chorus</h2>
 
         <div class="lyric-card">
-            <div class="english">There are ways to get there</div>
-            <div class="vietnamese">Có nhiều cách để đến được đó</div>
+            <div class="english">Then it feels that always
+Love's enough for us growing
+So make a better world
+Make a better place</div>
+            <div class="vietnamese">Và rồi ta luôn cảm thấy rằng
+Tình yêu là đủ để chúng ta khôn lớn
+Vậy nên hãy tạo ra một thế giới tốt đẹp hơn
+Tạo ra một chốn bình yên hơn</div>
             <div class="grammar">
-                <strong>Cấu trúc:</strong> <code>There are + Noun số nhiều</code>. Theo sau là <code>to + V</code> (infinitive of purpose) để chỉ mục đích "để làm gì".
+                <strong>Viết tắt:</strong> <code>Love's</code> ở đây là <code>Love is</code>. Cấu trúc <code>enough for sb + V-ing/to V</code> (Đủ cho ai đó phát triển).
+            </div>
+        </div>
+
+        <!-- REPEAT CHORUS -->
+        <h2 class="section-title">Chorus</h2>
+        <div class="lyric-card repeated">
+            <div class="english">Heal the world...
+Make a better place for you and for me</div>
+            <div class="vietnamese">(Lặp lại điệp khúc)
+Hãy chữa lành thế giới...</div>
+        </div>
+
+        <!-- BRIDGE -->
+        <h2 class="section-title">Bridge</h2>
+
+        <div class="lyric-card">
+            <div class="english">And the dream we were conceived in
+Will reveal a joyful face
+And the world we once believed in
+Will shine again in grace</div>
+            <div class="vietnamese">Và giấc mơ mà chúng ta được hoài thai
+Sẽ hé lộ một gương mặt ngập tràn niềm vui
+Và thế giới mà chúng ta từng tin tưởng
+Sẽ lại tỏa sáng trong ân sủng</div>
+            <div class="grammar">
+                <strong>Mệnh đề quan hệ (ẩn đại từ):</strong> <code>the dream (which/that) we were conceived in</code>. Khi động từ đi kèm giới từ (in), giới từ có thể đặt ở cuối mệnh đề.
             </div>
         </div>
 
         <div class="lyric-card">
-            <div class="english">If you care enough for the living</div>
-            <div class="vietnamese">Nếu bạn quan tâm đủ tới những sinh linh đang sống</div>
+            <div class="english">Then why do we keep strangling life
+Wound this earth, crucify its soul
+Though it's plain to see
+This world is heavenly
+Be god's glow</div>
+            <div class="vietnamese">Vậy tại sao chúng ta cứ mãi bóp nghẹt sự sống
+Làm tổn thương Trái đất này, đóng đinh linh hồn của nó
+Mặc dù rất rõ ràng để nhận ra
+Thế giới này là chốn thiên đường
+Hãy trở thành ánh hào quang của Chúa</div>
             <div class="grammar">
-                <strong>Cấu trúc:</strong> <code>Adj/Adv + enough + (for sb) + to V</code> (Đủ... để làm gì). Ở đây dùng "care enough" (quan tâm đủ).<br>
-                <strong>Ngữ pháp:</strong> <code>The + Tính từ (Adjective)</code> tạo thành một danh từ số nhiều chỉ một nhóm người. "The living" = những người/sinh vật đang sống.
+                <strong>Cấu trúc:</strong> <code>Keep + V-ing</code> (Tiếp tục, không ngừng làm một việc gì đó). Ví dụ: keep strangling (không ngừng bóp nghẹt).<br>
+                <strong>Cụm từ:</strong> <code>It's plain to see</code> = It is clear to see (Rất rõ ràng/dễ dàng để nhận ra).
+            </div>
+        </div>
+
+        <!-- VERSE 3 -->
+        <h2 class="section-title">Verse 3</h2>
+
+        <div class="lyric-card">
+            <div class="english">We could fly so high
+Let our spirits never die
+In my heart I feel you are all my brothers</div>
+            <div class="vietnamese">Chúng ta có thể bay bay rất cao
+Hãy để cho những tâm hồn không bao giờ chết
+Trong trái tim tôi, tôi cảm nhận các bạn đều là anh em của tôi</div>
+            <div class="grammar">
+                <strong>Cấu trúc:</strong> <code>Let + O + V(nguyên thể)</code> (Để cho ai/cái gì làm gì). Ví dụ: Let our spirits never die.
             </div>
         </div>
 
         <div class="lyric-card">
-            <div class="english">Make a little space, make a better place</div>
-            <div class="vietnamese">Hãy dành ra một chút không gian, hãy tạo nên một nơi tốt đẹp hơn</div>
+            <div class="english">Create a world with no fear
+Together we cry happy tears
+See the nations turn their swords into plowshares</div>
+            <div class="vietnamese">Kiến tạo một thế giới không có sự sợ hãi
+Cùng nhau ta rơi những giọt nước mắt hạnh phúc
+Nhìn các quốc gia biến gươm đao thành lưỡi cày (ngừng chiến tranh)</div>
             <div class="grammar">
-                <strong>Cấu trúc:</strong> <code>Câu mệnh lệnh (Imperative)</code>. Bắt đầu bằng một động từ nguyên thể (Make) dùng để đưa ra lời kêu gọi hoặc yêu cầu.
+                <strong>Động từ tri giác:</strong> <code>See + O + V(nguyên thể)</code> (Chứng kiến ai đó làm gì từ đầu đến cuối).<br>
+                <strong>Cụm từ/Thành ngữ:</strong> <code>Turn A into B</code> (Biến A thành B). "Turn swords into plowshares" là một thành ngữ mang ý nghĩa từ bỏ chiến tranh để xây dựng hòa bình.
             </div>
         </div>
 
-        <h2 class="section-title">Chorus (Điệp khúc)</h2>
+        <!-- PRE-CHORUS 3 -->
+        <h2 class="section-title">Pre-Chorus</h2>
 
         <div class="lyric-card">
-            <div class="english">Heal the world, make it a better place</div>
-            <div class="vietnamese">Hãy chữa lành thế giới, biến nó thành một nơi tốt đẹp hơn</div>
+            <div class="english">We could really get there
+If you cared enough for the living
+Make a little space
+To make a better place</div>
+            <div class="vietnamese">Chúng ta thực sự có thể đạt được điều đó
+Nếu bạn đủ quan tâm tới sự sống
+Hãy dành ra một chút không gian
+Để tạo nên một nơi tốt đẹp hơn</div>
             <div class="grammar">
-                <strong>Cấu trúc:</strong> <code>Make + Object (Tân ngữ) + Noun/Adj</code> (Làm cho ai/cái gì trở thành cái gì/như thế nào). Ở đây "make it a better place" (biến nó [thế giới] thành một nơi tốt đẹp hơn).
+                <strong>Câu điều kiện loại 2:</strong> <code>If + S + V(quá khứ đơn), S + could/would + V(nguyên thể)</code>. Dùng để giả định một điều không có thật hoặc khó xảy ra ở hiện tại ("If you cared" và "We could get there").
             </div>
         </div>
 
-        <div class="lyric-card">
-            <div class="english">For you and for me, and the entire human race</div>
-            <div class="vietnamese">Cho bạn, cho tôi, và cho toàn bộ nhân loại</div>
-            <div class="grammar">
-                <strong>Từ vựng:</strong> <code>Entire human race</code> (Danh từ ghép): Toàn bộ nhân loại. Giới từ "For" chỉ mục đích/sự hướng tới đối tượng hưởng lợi.
-            </div>
+        <!-- OUTRO CHORUS -->
+        <h2 class="section-title">Outro (Điệp khúc lặp lại)</h2>
+
+        <div class="lyric-card repeated">
+            <div class="english">Heal the world
+Make it a better place
+For you and for me
+And the entire human race
+There are people dying
+If you care enough for the living
+Make a better place for you and for me</div>
+            <div class="vietnamese">Hãy chữa lành thế giới
+Biến nó thành một nơi tốt đẹp hơn
+Cho bạn và cho tôi
+Và cho toàn bộ nhân loại
+Đang có những người phải ngã xuống
+Nếu bạn đủ quan tâm đến sự sống
+Hãy biến thế giới thành một nơi tốt đẹp hơn cho bạn và cho tôi.
+(Đoạn này được lặp lại 3 lần và kết thúc bài hát)</div>
         </div>
 
-        <div class="lyric-card">
-            <div class="english">There are people dying</div>
-            <div class="vietnamese">Có những người đang phải nằm xuống (mất đi)</div>
-            <div class="grammar">
-                <strong>Cấu trúc:</strong> <code>There are + Noun + V-ing</code>. Diễn tả ai đó đang làm gì/rơi vào trạng thái nào đó. Ở đây là mệnh đề quan hệ rút gọn của "There are people who are dying".
-            </div>
+        <div class="lyric-card repeated">
+            <div class="english">There are people dying
+If you care enough for the living
+Make a better place for you and for me
+(You and for me / You and for me...)</div>
+            <div class="vietnamese">Đang có những người phải ngã xuống
+Nếu bạn đủ quan tâm đến sự sống
+Hãy biến thế giới thành một nơi tốt đẹp hơn cho bạn và cho tôi.</div>
         </div>
         
     </div>
